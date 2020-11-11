@@ -12,5 +12,5 @@ public class Airplane {
     private Long id;
     private AirplaneCharacteristics airplaneCharacteristics;
     private TemporaryPoint temporaryPoint;
-    List <Flight> flights;
+    private List <Flight> flights;
 }
