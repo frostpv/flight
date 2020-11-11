@@ -12,7 +12,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 @Document(collection = "airplane_characteristics")
 public class AirplaneCharacteristics {
     @Id
-    private int id;
+    private String id;
     private int maximalSpeed;
     private int acceleration;
     private int verticalSpeed;

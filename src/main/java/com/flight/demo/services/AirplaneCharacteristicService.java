@@ -2,8 +2,12 @@ package com.flight.demo.services;
 
 import com.flight.demo.model.AirplaneCharacteristics;
 
-public interface AirplaneCharacteristicService {
+import java.util.List;
 
+public interface AirplaneCharacteristicService {
     void addAirplaneCharacteristic(AirplaneCharacteristics airplaneCharacteristics);
-    AirplaneCharacteristics getAirplaneCharacteristicsById(Integer id);
+
+    AirplaneCharacteristics getAirplaneCharacteristicsById(String id);
+
+    List<AirplaneCharacteristics> getAllCharacteristics();
 }
